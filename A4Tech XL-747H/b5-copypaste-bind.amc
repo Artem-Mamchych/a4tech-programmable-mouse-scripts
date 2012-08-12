@@ -1,0 +1,43 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description>if LMB isPressed -&gt; copy selected text
+if RMB isPressed -&gt; cut selected text
+otherwise -&gt; paste
+</Description>
+		<Comment>copy;cut;paste
+</Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>IfKey 1 0 9
+KeyDown 264 1
+KeyDown 6 1
+Delay 32 ms
+KeyUp 6 1
+KeyUp 264 1
+Delay 32 ms
+Goto 23
+IfKey 2 0 17
+KeyDown 264 1
+KeyDown 27 1
+Delay 32 ms
+KeyUp 27 1
+KeyUp 264 1
+Delay 32 ms
+Goto 23
+KeyDown 264 1
+KeyDown 25 1
+Delay 32 ms
+KeyUp 25 1
+KeyUp 264 1
+Delay 64 ms
+Delay 10 ms</Syntax>
+		</KeyDown>
+		<Software>copy-cut-paste
+</Software></DefaultMacro>
+</Root>

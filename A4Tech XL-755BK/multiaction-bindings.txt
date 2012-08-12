@@ -1,0 +1,57 @@
+@see *multiaction-bind.amc sources for code.
+Open it in "OSCAR Mouse Script Editor" to edit
+
+General flow:
+if LMB isPressed {
+	action 1
+	goto END
+} if RMB isPressed {
+	action 2
+	goto END
+} if x3 isPressed {
+	action 3
+	goto END
+} default action.
+---
+where:
+LMB=left mouse button
+RMB=right mouse button
+x3=treble click mouse button
+
+Five additional buttons map:
+  12
+4 13 5
+  11
+
+===
+[my main profile]
+4<forward key>:
+LMB=[ahk] #t translateIt
+RMB=[ahk] #b bookm menu
+x3=none
+DEF=[ahk] #w googleIt
+
+paste and paste from DDmenus!
+12<up key>:
+LMB=[ahk] #a auth menu
+RMB=[ahk] #g git/cli menu
+x3=none
+DEF=paste;
+
+11<down key>:
+LMB=
+RMB=
+x3=none
+DEF=copy;
+
+5<backward key>:
+LMB=
+RMB=
+x3=none
+DEF=<Backspace>
+
+13.Alt+Tab wait 400ms[repeat];
+---
+[actions to bind]
+launch apps[none]
+idea hotkeys[none]

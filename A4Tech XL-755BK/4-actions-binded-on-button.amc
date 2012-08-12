@@ -1,0 +1,48 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description></Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>IfKey 1 0 25
+KeyDown 264 1
+KeyDown 35 1
+Delay 32 ms
+KeyUp 35 1
+KeyUp 264 1
+Delay 32 ms
+Goto 31
+IfKey 2 0 25
+KeyDown 265 1
+KeyDown 30 1
+Delay 32 ms
+KeyUp 30 1
+KeyUp 265 1
+Delay 32 ms
+Goto 31
+IfKey 7 0 25
+KeyDown 265 1
+KeyDown 35 1
+Delay 32 ms
+KeyUp 35 1
+KeyUp 265 1
+Delay 32 ms
+Goto 31
+KeyDown 264 1
+KeyDown 30 1
+Delay 32 ms
+KeyUp 30 1
+KeyUp 264 1
+Delay 32 ms
+Delay 5 ms
+Delay 5 ms</Syntax>
+		</KeyDown>
+		<Software>multiaction-bind
+</Software></DefaultMacro>
+</Root>

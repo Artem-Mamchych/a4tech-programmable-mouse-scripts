@@ -1,0 +1,44 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description>LMB=[ahk] #t translateIt
+RMB=[ahk] #b bookm menu
+x3=none
+DEF=[ahk] #w googleIt
+</Description>
+		<Comment>#w; #t; #b
+</Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>IfKey 1 0 9
+KeyDown 267 1
+KeyDown 23 1
+Delay 32 ms
+KeyUp 23 1
+KeyUp 267 1
+Delay 32 ms
+Goto 23
+IfKey 2 0 17
+KeyDown 267 1
+KeyDown 5 1
+Delay 32 ms
+KeyUp 5 1
+KeyUp 267 1
+Delay 32 ms
+Goto 23
+KeyDown 267 1
+KeyDown 26 1
+Delay 32 ms
+KeyUp 26 1
+KeyUp 267 1
+Delay 64 ms
+Delay 10 ms</Syntax>
+		</KeyDown>
+		<Software>4&lt;forward key&gt;
+</Software></DefaultMacro>
+</Root>

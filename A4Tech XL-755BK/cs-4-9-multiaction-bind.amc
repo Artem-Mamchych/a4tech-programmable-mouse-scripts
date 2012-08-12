@@ -1,0 +1,54 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description>Binds on one button 4 different keys:
+if Left mouse button pressed = Ctrl+9
+if Right mouse button pressed  = Shift+4
+if Double click mouse button(7) pressed  = Shift+9
+Default action: Ctrl+4
+</Description>
+		<Comment>4 different actions on one button
+</Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>IfKey 1 0 9
+KeyDown 264 1
+KeyDown 38 1
+Delay 32 ms
+KeyUp 38 1
+KeyUp 264 1
+Delay 32 ms
+Goto 31
+IfKey 2 0 17
+KeyDown 265 1
+KeyDown 33 1
+Delay 32 ms
+KeyUp 33 1
+KeyUp 265 1
+Delay 32 ms
+Goto 31
+IfKey 7 0 25
+KeyDown 265 1
+KeyDown 38 1
+Delay 32 ms
+KeyUp 38 1
+KeyUp 265 1
+Delay 32 ms
+Goto 31
+KeyDown 264 1
+KeyDown 33 1
+Delay 32 ms
+KeyUp 33 1
+KeyUp 264 1
+Delay 32 ms
+Delay 5 ms
+Delay 5 ms</Syntax>
+		</KeyDown>
+		<Software>multiaction-bind
+</Software></DefaultMacro>
+</Root>

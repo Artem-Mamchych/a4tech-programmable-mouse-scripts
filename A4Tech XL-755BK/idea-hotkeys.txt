@@ -1,0 +1,3 @@
+[actions to bind]
+maximize\minimize code window
+open code outline popup
