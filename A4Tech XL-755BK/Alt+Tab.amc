@@ -2,7 +2,8 @@
 	<DefaultMacro>
 		<Major></Major>
 		<Description></Description>
-		<Comment></Comment>
+		<Comment>Alt+Tab
+</Comment>
 		<GUIOption>
 			<RepeatType>1</RepeatType>
 		</GUIOption>
@@ -15,12 +16,10 @@ Delay 64 ms
 KeyDown 43 1
 Delay 64 ms
 KeyUp 43 1
-Delay 400 ms
-KeyUp 264 1
-IfKey 13 1 3
+Delay 64 ms
 KeyUp 266 1
 Delay 64 ms</Syntax>
 		</KeyDown>
-		<Software>Smart Alt+Tab with delay
+		<Software>Alt+Tab with delay 64ms
 </Software></DefaultMacro>
 </Root>
