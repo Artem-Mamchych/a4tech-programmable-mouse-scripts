@@ -1,3 +1,8 @@
 [actions to bind]
 maximize\minimize code window
 open code outline popup
+
+Shift+F1 (View | External JavaDoc).
+Ctrl+Q (View | Quick Documentation), Ctrl+P (View | Parameter Info), Ctrl+B (Navigate | Declaration)
+Use Ctrl+Shift+I (View | Quick Definition), to quickly review definition or content of the symbol at caret, without the need to open it in a new editor tab.
+

@@ -27,7 +27,7 @@ Five additional buttons map:
 [my main profile]
 4<forward key>:
 LMB=[ahk] #t translateIt
-RMB=[ahk] #b bookm menu
+RMB=[ahk] #b bookmarks menu
 x3=none
 DEF=[ahk] #w googleIt
 
